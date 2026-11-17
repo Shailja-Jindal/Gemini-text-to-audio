@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets: never commit your API key
+.env
+
+# Generated audio (large files)
+*.wav
+*.mp3
